@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Scraping websites to gather content for a blog post then using AI to generate a new blog post through the information scraped from the others.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "build": "npx tsc",
     "start": "node build/index.js",

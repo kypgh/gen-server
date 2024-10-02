@@ -1,6 +1,6 @@
 import OpenAI from "openai";
-import { OPENAI_API_KEY } from "../config/envs";
-import { scrape } from "./scrap.service";
+import { OPENAI_API_KEY } from "../config/envs.js";
+import { scrape } from "./scrap.service.js";
 
 const openai = new OpenAI({
   apiKey: OPENAI_API_KEY,
